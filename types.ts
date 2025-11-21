@@ -2,6 +2,7 @@ export interface BlogPost {
   id: string;
   title: string;
   excerpt: string;
+  content: string; // Full blog content
   category: string;
   date: string;
   color: string; // Star color
